@@ -124,28 +124,30 @@
 ## 檔案說明
 
 ```
-金融科技創新與應用/
-├── 期末報告.pdf             # 完整期末報告（95 頁）
+FinTech-Factor-Investing/
+├── 期末報告.pdf                  # 完整期末報告（95 頁）
+├── README.md
 │
-├── bm 6.xlsm               # 帳面市值比因子資料處理
-├── size 4.xlsm             # 規模因子資料處理
-├── mom3.xlsm               # 動能因子資料處理
+├── data/                         # 因子資料處理
+│   ├── size 4.xlsm               # 規模因子
+│   ├── bm 6.xlsm                 # 帳面市值比因子
+│   ├── mom3.xlsm                 # 動能因子
+│   └── Real (1).xlsx             # 真實 IC 值
 │
-├── Real (1).xlsx           # 真實 IC 值
-├── OLS (12).xlsx           # OLS 預測結果
-├── RF999.xlsx              # 隨機森林預測結果
-├── NN1(1).xlsx             # NN1 預測結果
-├── NN2(1).xlsx             # NN2 預測結果
-├── NN3(1).xlsx             # NN3 預測結果
-├── NN4(2).xlsx             # NN4 預測結果
-├── NN5(1).xlsx             # NN5 預測結果
-├── XGBoost.xlsx            # XGBoost 預測結果
-├── GLM (1).xlsx            # GLM 預測結果
-├── GBRT (1).xlsx           # GBRT 預測結果
-│
-├── 勝率分析.xlsx            # 各模型策略勝率比較
-├── 夏普比率分析.xlsx         # 各模型策略夏普比率比較
-└── 累積報酬畫圖.xlsx         # 累積報酬視覺化
+└── results/                      # 模型預測結果與績效分析
+    ├── OLS (12).xlsx             # OLS 預測結果
+    ├── RF999.xlsx                # 隨機森林預測結果
+    ├── NN1(1).xlsx               # NN1 預測結果
+    ├── NN2(1).xlsx               # NN2 預測結果
+    ├── NN3(1).xlsx               # NN3 預測結果
+    ├── NN4(2).xlsx               # NN4 預測結果
+    ├── NN5(1).xlsx               # NN5 預測結果
+    ├── XGBoost.xlsx              # XGBoost 預測結果
+    ├── GLM (1).xlsx              # GLM 預測結果
+    ├── GBRT (1).xlsx             # GBRT 預測結果
+    ├── 勝率分析.xlsx              # 各模型勝率比較
+    ├── 夏普比率分析.xlsx           # 各模型夏普比率比較
+    └── 累積報酬畫圖.xlsx           # 累積報酬視覺化
 ```
 
 ---
